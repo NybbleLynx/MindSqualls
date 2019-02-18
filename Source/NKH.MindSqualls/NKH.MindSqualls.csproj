@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9973018E-FC09-4549-A484-0B702ADE1EE9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NKH.MindSqualls</RootNamespace>
+    <AssemblyName>NKH.MindSqualls</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\NKH.MindSqualls.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HiTechnicAccelerationSensor.cs" />
+    <Compile Include="HiTechnicColorSensor.cs" />
+    <Compile Include="HiTechnicCompassSensor.cs" />
+    <Compile Include="MotorControlProxy.cs" />
+    <Compile Include="Nxt2ColorSensor.cs" />
+    <Compile Include="NxtActiveSensor.cs" />
+    <Compile Include="NxtBluetoothConnection.cs" />
+    <Compile Include="NxtBrick1.cs" />
+    <Compile Include="NxtBrick3.cs" />
+    <Compile Include="NxtBrick2.cs" />
+    <Compile Include="NxtCommunicationProtocol.cs" />
+    <Compile Include="NxtCommunicationProtocolStructures.cs" />
+    <Compile Include="NxtDigitalSensor.cs" />
+    <Compile Include="NxtExceptions.cs" />
+    <Compile Include="NxtLightSensor.cs" />
+    <Compile Include="NxtMotor.cs" />
+    <Compile Include="NxtMotorSync.cs" />
+    <Compile Include="NxtNoSensor.cs" />
+    <Compile Include="NxtPassiveSensor.cs" />
+    <Compile Include="NxtPollable.cs" />
+    <Compile Include="NxtSensor.cs" />
+    <Compile Include="NxtSoundSensor.cs" />
+    <Compile Include="NxtTouchSensor.cs" />
+    <Compile Include="NxtUltrasonicSensor.cs" />
+    <Compile Include="NxtUsbConnection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerialPortFixer.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="McNxtBrick.cs" />
+    <Compile Include="McNxtMotor.cs" />
+    <Compile Include="McNxtMotorSync.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="WinUsbWrapper\WinUsbWrapper.csproj">
+      <Project>{40C6E946-D5AC-43B8-AEDE-D896E9CBB3E2}</Project>
+      <Name>WinUsbWrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
