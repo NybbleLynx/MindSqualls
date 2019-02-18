@@ -11,7 +11,7 @@ work on this anymore.
 Find the latest version of MindSqualls in [releases](https://github.com/LucariMewTwo/MindSqualls/releases). The original code is also
 available on the [MindSqualls website](http://www.mindsqualls.net/)
 
-My updated library is Mindstorms Sharp
+My updated library is [Mindstorms Sharp](https://github.com/LucariMewTwo/MindstormsSharp/)
 
 ## Legal Stuff
 I do not own this code. I have been given permission by the original author to upload
