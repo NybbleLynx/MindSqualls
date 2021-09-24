@@ -1,17 +1,17 @@
 # MindSqualls
-This code is owned by Niels K. Handest and he has asked me to upload his work here
+This code is owned by Niels K. Handest and they have asked me to upload their work here
 on GitHub. I am currently working on a new and updated version of this library but
 as this will take some time MindSqualls will be available here.
 
-I have had a small email conversation with Niels and he has pointed out some issues
-with the latest version of his code that he would've liked to fix. He did also
-want to add support for the EV3 kit but due to other commitments he has no time to
+I have had a small email conversation with Niels and they have pointed out some issues
+with the latest version of his code that they would've liked to fix. They also
+wanted to add support for the EV3 kit but due to other commitments they have no time to
 work on this anymore.
 
-Find the latest version of MindSqualls in [releases](https://github.com/LucariMewTwo/MindSqualls/releases). The original code is also
+Find the latest version of MindSqualls in [releases](https://github.com/NybbleLynx/MindSqualls/releases). The original code is also
 available on the [MindSqualls website](http://www.mindsqualls.net/)
 
-My updated library is [Mindstorms Sharp](https://github.com/LucariMewTwo/MindstormsSharp/)
+My updated library is [Mindstorms Sharp](https://github.com/NybbleLynx/MindstormsSharp/)
 
 ## Legal Stuff
 I do not own this code. I have been given permission by the original author to upload
