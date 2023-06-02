@@ -4,7 +4,7 @@ on GitHub. I am currently working on a new and updated version of this library b
 as this will take some time MindSqualls will be available here.
 
 I have had a small email conversation with Niels and they have pointed out some issues
-with the latest version of his code that they would've liked to fix. They also
+with the latest version of their code that they would've liked to fix. They also
 wanted to add support for the EV3 kit but due to other commitments they have no time to
 work on this anymore.
 
