@@ -1,3 +1,5 @@
+**THIS REPOSITORY IS MARKED AS READ-ONLY. THE CODE HERE IS PROVIDED AS IS AND NO SUPPORT WILL BE OFFERRED.**
+
 # MindSqualls
 This code is owned by Niels K. Handest and they have asked me to upload their work here
 on GitHub.
